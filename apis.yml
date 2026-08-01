@@ -1,7 +1,15 @@
 aid: q-bio
 name: Q Bio
-description: Q Bio is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Q Bio is a Redwood City, California health-technology company offering the Q Exam and the Q Bio
+  Health Dashboard, sold directly at its clinic and through enterprise partners. The Q Exam is a
+  comprehensive preventive-health assessment that combines whole-body non-contrast MRI, 120+ blood
+  biomarkers, analysis of 163 risk-relevant genes, wearable data, medical history, and board-certified
+  physician review into a single longitudinal health baseline. Imaging is quantified by Constellation,
+  the company's FDA-cleared AI image-analysis software that segments organs and measures anatomy, and
+  results are stored in the Q Bio Health Dashboard for year-over-year comparison. Q Bio is a portfolio
+  company of a16z. As of this enrichment pass the company publishes no public developer portal, API,
+  documentation, or well-known discovery surface.
 url: https://raw.githubusercontent.com/api-evangelist/q-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +17,55 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Health
+- Healthcare
+- Digital Health
+- Preventive Health
+- Medical Imaging
+- MRI
+- Genomics
+- Longevity
+- Health Data
+image: https://q.bio/favicon.ico
 apis: []
+common:
+- type: Website
+  url: https://q.bio
+- type: About
+  url: https://q.bio/about
+- type: PrivacyPolicy
+  url: https://q.bio/privacy
+- type: TermsOfService
+  url: https://q.bio/terms
+- type: Support
+  url: mailto:hello@q.bio
+- type: SignUp
+  url: https://q.bio/book
+- type: DomainSecurity
+  url: security/q-bio-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
